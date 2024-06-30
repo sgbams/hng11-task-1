@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 4vh 0;
+  gap: 3vw;
+}
+
+.container {
+  width: 60vw;
+  height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 0;
+
+}
+
+.container .con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .con .name, .time, .email, .day {
+  text-align: center;
+  padding: 1vh;
+}
+
+
+.container .con .goals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 4vh;
+}
+
+img {
+  width: 25vw;
+  height: 55vh;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 542) {
+  padding-top: 4vh;
+}
